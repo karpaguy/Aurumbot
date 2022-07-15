@@ -8,7 +8,7 @@
        • You don't need all of your Arumtails fully-equiped, only the lightshifted with your best equipament can do the job (this is a tip).
 </p> 
 
-<h4>To close the program
+<h4>To close the program slam the mouse into a corner to stop it.
     
 <br></br>
 
