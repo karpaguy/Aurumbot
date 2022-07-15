@@ -9,7 +9,7 @@
 </p> 
 
 <h4>To close the program slam the mouse into a corner on your screen to stop it.
-    
+<br></br>
 
 <p><i><strong>Money Farming - Arumtails and Monster Bells - 430k per hour: </strong></i></p> 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2748568177
