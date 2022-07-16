@@ -47,9 +47,9 @@ cxy = False
 menu_open()
 
 while cxy == False:
-    if pyautogui.locateOnScreen('assets\\Images-PTBR\\SinoBorder.png', confidence=0.90) != None:
+    if pyautogui.locateOnScreen('assets\\Images-ENG\\SinoBorder.png', confidence=0.90) != None:
         print('Achei')
-        blx, bly = pyautogui.locateCenterOnScreen('assets\\Images-PTBR\\SinoBorder.png', confidence=0.85)
+        blx, bly = pyautogui.locateCenterOnScreen('assets\\Images-ENG\\SinoBorder.png', confidence=0.85)
         cxy = True
     else:
         pyautogui.press('down')
@@ -69,7 +69,7 @@ while keyboard.is_pressed("q") == False:
         Mantis = False
         start = time.time()
         while time.time() - start < 2:
-            if pyautogui.locateOnScreen('assets\\Images-PTBR\\Mantis_Body.png' or 'assets\\Images-PTBR\\Mantis_Body_Alt.png' , confidence=0.7) != None:
+            if pyautogui.locateOnScreen('assets\\Images-ENG\\Mantis_Body.png' or 'assets\\Images-ENG\\Mantis_Body_Alt.png' , confidence=0.7) != None:
                 Mantis = True
                 if Mantis == True:
                     start = 2
@@ -94,14 +94,14 @@ while keyboard.is_pressed("q") == False:
             time.sleep(0.2)
             pyautogui.press('enter')
 
-    if pyautogui.locateOnScreen('assets\\Images-PTBR\\Iniciar_Combate.png', confidence=0.7) != None:
+    if pyautogui.locateOnScreen('assets\\Images-ENG\\Iniciar_Combate.png', confidence=0.7) != None:
             pyautogui.press('enter')
             time.sleep(0.5)
             Barragem = True
 
     while Barragem == True:
-        if pyautogui.locateOnScreen('assets\\Images-PTBR\\Barragem_de_Gemas.png', confidence=0.95) != None:
-                    btnx, btny = pyautogui.locateCenterOnScreen('assets\\Images-PTBR\\Barragem_de_Gemas.png', confidence=0.95)
+        if pyautogui.locateOnScreen('assets\\Images-ENG\\Barragem_de_Gemas.png', confidence=0.95) != None:
+                    btnx, btny = pyautogui.locateCenterOnScreen('assets\\Images-ENG\\Barragem_de_Gemas.png', confidence=0.95)
                     time.sleep(0.3)
                     print("Clicado na Barragem de Gemas")
                     click(btnx, btny)
@@ -116,7 +116,7 @@ while keyboard.is_pressed("q") == False:
             print("Barragem não localizada.")
 
     if Ouro == True:
-        if pyautogui.locateOnScreen('assets\\Images-PTBR\\Bonus_Ouro.png', confidence=0.5) != None:
+        if pyautogui.locateOnScreen('assets\\Images-ENG\\Bonus_Ouro.png', confidence=0.5) != None:
                     contador = 0
                     while contador != 4:
                         pyautogui.press('enter')
