@@ -1,7 +1,9 @@
 import pyautogui
 import time
 import keyboard
-import win32api, win32con
+from pywin32 import win32api, win32con
+
+from win32 import win32api
 
 print("|##################################################|")
 print("|          Boas-vindas ao AurumtailBot!            |")
