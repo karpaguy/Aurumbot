@@ -130,3 +130,5 @@ while keyboard.is_pressed("q") == False:
                 print("Ainda localizando...")
 
 print("Não há mais sinos restantes ou o programa falhou.")
+
+print('Hic')
